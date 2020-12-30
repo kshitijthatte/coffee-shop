@@ -10,18 +10,13 @@ body {
   background: url(coffee-background.jpg) no-repeat center center / cover;
   overflow: hidden;
   color: #ddd;
+  width: 100%;
 }
 
 .navbar {
   display: flex;
   justify-content: space-around;
   padding: 1rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0));
-}
-
-.nav-heading {
-  width: 100%;
-  font-size: 1.2rem;
 }
 
 .navbar ul {
@@ -29,13 +24,14 @@ body {
   list-style: none;
   gap: 2rem;
   justify-content: flex-end;
-  width: 100vw;
+  /* width: 100vw; */
   justify-content: space-evenly;
 }
 
 .nav-items a {
   margin: 1rem;
   color: #fff;
+  text-decoration: none;
 }
 
 .main {
@@ -44,16 +40,18 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 95vh;
+  height: 100vh;
 }
 
 .main-heading {
   font-size: 5rem;
   text-transform: uppercase;
+  padding: 0.5rem;
 }
 
-.main p {
+.main .main-subheading {
   font-size: 1.5rem;
+  padding: 1rem;
 }
 
 .main-link {
@@ -64,4 +62,38 @@ body {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  text-decoration: none;
+}
+
+/* Menu */
+.menu-heading {
+  padding: 1rem;
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.menu-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  width: 20vw;
+  margin: 1rem;
+  flex: 1 1 auto;
+  border-radius: 1rem;
+}
+
+.menu-item h2 {
+  padding: 0.6rem 0;
+}
+
+.menu-description {
+  font-size: 1rem;
+}
+
+.menu-img {
+  width: 50%;
+  border-radius: 50%;
 }

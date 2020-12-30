@@ -9,7 +9,7 @@ body {
   /* background-image: url(coffee-background.jpg) top center / cover; */
   background: url(coffee-background.jpg) no-repeat center center / cover;
   overflow: hidden;
-  color: #ddd;
+  color: #ccc;
   width: 100%;
 }
 
@@ -57,7 +57,7 @@ body {
 .main-link {
   padding: 1rem;
   margin-top: 0.8rem;
-  color: #ddd;
+  color: #ccc;
   background: #6e4525;
   border: none;
   border-radius: 10px;
@@ -96,4 +96,42 @@ body {
 .menu-img {
   width: 50%;
   border-radius: 50%;
+}
+
+/* About */
+.about {
+  justify-content: space-evenly;
+}
+.about h1 {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.about p {
+  font-size: 1rem;
+}
+
+.about input {
+  padding: 0.5rem;
+  width: 20vw;
+  margin: 1rem;
+}
+
+.about hr {
+  width: 80vw;
+  border: 1px solid #6e4525;
+}
+
+.contact-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #6e4525;
+  margin: 1rem;
+  font-size: 1rem;
+  padding: 0.8rem;
+  color: #ccc;
+  border: none;
+  background: #6e4525;
+  border-radius: 10px;
+  cursor: pointer;
 }

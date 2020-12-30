@@ -99,12 +99,13 @@ body {
 }
 
 /* About */
-.about {
-  justify-content: space-evenly;
-}
 .about h1 {
   font-size: 3rem;
   padding: 1rem;
+}
+
+.about-desc {
+  padding-bottom: 4rem;
 }
 
 .about p {
@@ -117,16 +118,11 @@ body {
   margin: 1rem;
 }
 
-.about hr {
-  width: 80vw;
-  border: 1px solid #6e4525;
-}
-
 .contact-link {
   display: inline-block;
   text-decoration: none;
-  color: #6e4525;
-  margin: 1rem;
+  margin: 0 1rem;
+  margin-bottom: 0.5rem;
   font-size: 1rem;
   padding: 0.8rem;
   color: #ccc;
@@ -134,4 +130,20 @@ body {
   background: #6e4525;
   border-radius: 10px;
   cursor: pointer;
+}
+
+/* Blog */
+
+.blog {
+  text-align: left;
+  padding: 2rem;
+}
+
+.blog {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 1rem;
+}
+
+.blog h2 {
+  padding-bottom: 1rem;
 }

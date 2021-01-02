@@ -6,14 +6,12 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  /* background-image: url(coffee-background.jpg) top center / cover; */
-  /* background: url(coffee-background.jpg) no-repeat center center / cover; */
   background-image: linear-gradient(
       to right bottom,
       rgba(0, 0, 0, 0.5),
       rgba(255, 255, 255, 0.1)
     ),
-    url(coffee-background.jpg);
+    url(/img/coffee-background.jpg);
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
